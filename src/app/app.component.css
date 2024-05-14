@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navegacion {
+    background-color: #22133a; 
+    padding: 30px 40px; 
+    margin-bottom: 30px;
+  }
+  
+  .lista {
+    list-style-type: none;
+  }
+  
+  .lista li {
+    display: inline; 
+    margin-right: 20px; 
+    margin: 80px;
+  }
+  
+
+  .lista li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+ 
+  .lista li a:hover {
+    color: #ffcc00;
+  }
+  
+  /*Estilos del footer*/
+
+
+  .footer{
+    background-color: #4a2a7c; 
+    padding: 30px 40px; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .texto-final{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+  }
